@@ -34,16 +34,19 @@ Below table summarizes various activities to be done as part of creating a data 
 | 10 | Catalog de-duplicated data and query using Amazon Athena | Data Lake Analyst |
 
 
+## Workshop Activities
 
+1. [Provision a data lake, data lake administrator and data lake analyst](lab-guides/activity1.md)
+2. [Register a data lake](lab-guides/activity2.md)
+3. [Assign Lake Formation Permissions to data lake analyst and service role](lab-guides/activity3.md)
+4. [Create AWS Glue Database](lab-guides/activity4.md)
+5. [Crawl and catalog Patient data in AWS Glue](lab-guides/activity5.md)
+6. [Login as Data Lake Administrator and assign Table permissions](lab-guides/activity6.md)
+7. [Observe the data pattern and duplicates in data](lab-guides/activity7.md)
+8. [Create, teach and Tune an AWS Lake Formation ML Transform](lab-guides/activity8.md)
+9. [Create and Run Glue ETL Job to use ML Transform for finding duplicates](lab-guides/activity9.md)
+10. [Catalog de-duplicated data and query using Amazon Athena](lab-guides/activity10.md)
 
-
-
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
 
 ## License
 
