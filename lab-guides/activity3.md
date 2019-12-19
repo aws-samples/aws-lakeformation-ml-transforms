@@ -25,7 +25,7 @@ ii) Select the dlanalyst as well as AWS Service Role **‘AWSGlueServiceRole-LF-
 
 iii) In the Storage location field select **‘\<<s3bucket\>>/patientdata’**
 
-iv) Click on Grant to save the changes
+iv) Click on **Grant** to save the changes
 
 
 ___
