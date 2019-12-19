@@ -14,13 +14,21 @@ First time you navigate to Lake Formation Dashboard page, you would be prompted 
 OR
 
 i) While you are logged in as an IAM Admin user
+
 ii) Go to => Lake Formation Console **→ Admins and database creators → Data lake administrators → Grant**
+
 iii) Click on **Add Administrators**
+
 <img>
+
 iv) Select the Data Lake Administrator as **“dladmin”** user and click on **Save**.
+
 <img>
+
 v) Another recommended change that you would need to do is to go to Lake Formation Console **→ Data Catalog → Settings** and **uncheck** both the boxes as shown below and click on **Save** button.
+
 <img>
+
 
 After this step you, would not be using this IAM user again. Instead you will use **dladmin** user as a Data Lake Administrator and **dlanalyst** user as a data lake analyst/developer.
 
