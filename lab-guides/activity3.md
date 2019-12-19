@@ -19,11 +19,11 @@ iii) Click on **Grant** to save the Create database permission for the **dlanaly
 
 You will also need to grant the permission to dlanalyst on the data lake storage.
 
-i) In Lake Formation console, navigate to Permissions → Data locations → Click on Grant
+i) In Lake Formation console, navigate to **Permissions → Data locations** → Click on **Grant**
 
-ii) Select the dlanalyst as well as AWS Service Role ‘AWSGlueServiceRole-LF-MLLab’ from IAM users and roles dropdown
+ii) Select the dlanalyst as well as AWS Service Role **‘AWSGlueServiceRole-LF-MLLab’** from **IAM users and roles** dropdown
 
-iii) In the Storage location field select ‘<s3bucket>/patientdata’
+iii) In the Storage location field select **‘<s3bucket>/patientdata’**
 
 iv) Click on Grant to save the changes
 
