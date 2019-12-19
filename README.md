@@ -19,9 +19,11 @@ Below is the high-level architecture that you would be implementing as part of t
 ### Activities
 Below table summarizes various activities to be done as part of creating a data lake and using AWS Lake Formation ML Transforms to deduplicate the data in a data lake.
 
-       | Activity | User
--------|----------|-------
-1      |  A       | B
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 
