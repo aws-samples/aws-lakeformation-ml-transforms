@@ -22,8 +22,19 @@ Below table summarizes various activities to be done as part of creating a data 
 
 | No. | Activity  | User |
 | --- | ------------- | ------------- |
-| 1 | Content Cell  | Content Cell  |
-| 2| Content Cell  | Content Cell  |
+| 1 | Provision the following: - Data lake on Amazon S3 - Data lake administrator - Data lake analyst/developer - Data lake and glue roles   | IAM Administrator  |
+| 2| Register a data lake  | Data Lake Administrator  |
+| 3 | Assign Lake Formation Permissions to data lake analyst | Data Lake Administrator |
+| 4 | Create AWS Glue Database | Data Lake Administrator |
+| 5 | Crawl and catalog Patient data in AWS Glue | Data Lake Analyst |
+| 6 | Login back as data lake administrators and assign table permissions to data analyst | Data Lake Administrator |
+| 7 | Observe the data pattern and duplicates in data using Amazon Athena | Data Lake Analyst |
+| 8 | Create, teach and Tune an AWS Lake Formation ML Transform | Data Lake Analyst |
+| 9 | Create an AWS Glue ETL Job to use ML Transform for data deduplication | Data Lake Analyst |
+| 10 | Catalog de-duplicated data and query using Amazon Athena | Data Lake Analyst |
+
+
+
 
 
 
