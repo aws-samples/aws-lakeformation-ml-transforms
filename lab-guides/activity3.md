@@ -23,7 +23,7 @@ i) In Lake Formation console, navigate to **Permissions → Data locations** →
 
 ii) Select the dlanalyst as well as AWS Service Role **‘AWSGlueServiceRole-LF-MLLab’** from **IAM users and roles** dropdown
 
-iii) In the Storage location field select **‘<s3bucket>/patientdata’**
+iii) In the Storage location field select **‘<<s3bucket>>/patientdata’**
 
 iv) Click on Grant to save the changes
 
