@@ -36,7 +36,7 @@ g) Open the downloaded file in excel, sort by patient_id and observe the duplica
 
 <img alt="" src="images/7-5.png" width="70%" height="70%" >
 
-As highlighted with different colors in the above table with identifying different groups that includes the original patient record grouped with its duplicates. The patient_id values are generated in a specific format that helps us identify the such groups. The format is “rec-<record number>-org/dup-<duplicate record number>” followed by FEBRL data gen tool.
+As highlighted with different colors in the above table with identifying different groups that includes the original patient record grouped with its duplicates. The patient_id values are generated in a specific format that helps us identify the such groups. The format is “rec-\<record number\>-org/dup-\<duplicate record number\>” followed by FEBRL data gen tool.
 As a next step, we will create, teach and tune AWS Lake Formation FindMatches ML Transform and then use it in the Glue ETL job to find matches and/or remove the duplicates.
 
 
