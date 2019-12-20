@@ -25,6 +25,8 @@ CloudFormation template would create the below resources.
 - Glue Development Endpoint 
 - SageMaker Notebook instance with Spark ETL code
 
+**NOTE: Password for dladmin and dlanalyst users is set to "welcome".**
+
 ### b. Setup Data Lake Administrator
 Navigate to Lake Formation Dashboard from AWS Management Console.
 ![lakeformation-console](images/1-1.png)
