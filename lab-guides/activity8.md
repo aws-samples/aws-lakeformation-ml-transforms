@@ -1,4 +1,4 @@
-[Back to main guide](../README.md)|[Next](activity9.md)
+[Back to main guide](../README.md) | [Next](activity9.md)
 ___
 
 ## 8. Create, teach and Tune an AWS Lake Formation ML Transform
@@ -95,4 +95,4 @@ In this lab, you have 2 options for this:
 
 ___
 
-[Back to main guide](../README.md)|[Next](activity9.md)
+[Back to main guide](../README.md) | [Next](activity9.md)
