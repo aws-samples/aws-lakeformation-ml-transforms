@@ -143,7 +143,7 @@ In this lab, you have 2 options for this:
 |   | Options | Considerations |
 | --- | ------ | ------ |
 | 1 | Using AWS Glue Console, Run Glue ETL Job as per [Activity#9](activity9.md) and continue through the excercise | * This needs initial start-up time (cold start) for underlying Spark cluster to spin-up <br> * Recommended for production deployments |
-| 2 | Use AWS Glue Development Endpoints. <br> Follow **Appendix A** to run PySpark code from SageMaker Jupyter Notebook and then follow **Appendix B** to catalog and query the matched/deduplicated data | * No start-up time. Development Endpoint is already provisioned as part of lab and ETL Job execution can begin immediately. <br> * Iterative ETL development through various kernels available in SageMaker Notebook instance <br> Recommended for Glue ETL dev phase |
+| 2 | Use AWS Glue Development Endpoints. <br> Follow **[Appendix A](appendixA.md)** to run PySpark code from SageMaker Jupyter Notebook and then follow **[Appendix B](appendixB.md)** to catalog and query the matched/deduplicated data | * No start-up time. Development Endpoint is already provisioned as part of lab and ETL Job execution can begin immediately. <br> * Iterative ETL development through various kernels available in SageMaker Notebook instance <br> Recommended for Glue ETL dev phase |
 
 
 
