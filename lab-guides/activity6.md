@@ -21,8 +21,6 @@ g) Click on **Grant** to save the changes
 
 <img alt="" src="images/6-2.png" width="70%" height="70%" >
 
-<img alt="" src="images/6-3.png" width="70%" height="70%" >
-
 
 ___
 
