@@ -1,4 +1,4 @@
-[Back to main guide](../README.md)|[Next](sct.md)
+[Back to main guide](../README.md)
 ___
 
 ## Appendix B
@@ -7,4 +7,4 @@ ___
 
 ___
 
-[Back to main guide](../README.md)|[Next](sct.md)
+[Back to main guide](../README.md)
