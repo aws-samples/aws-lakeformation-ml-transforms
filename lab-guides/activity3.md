@@ -31,7 +31,7 @@ iii) In the Storage location field select **‘\<<s3bucket\>>/patientdata’**
 
 iv) Click on **Grant** to save the changes
 
-<img alt="db creators" src="images/3-1.png" width="90%" height="90%" >
+<img alt="db creators" src="images/3-3.png" width="90%" height="90%" >
 
 
 ___
