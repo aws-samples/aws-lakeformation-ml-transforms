@@ -27,16 +27,16 @@ ix) **Glue Version** as **Spark 2.2 (Glue Version 0.9)**
 
 x) Keep other values as default and click on **Next**
 
-<img alt="" src="images/8-1.png" width="70%" height="70%" >
+<img alt="" src="images/8-2.png" width="70%" height="70%" >
 
 
 xi) Select **rawdata** as a **Data Source** and click **Next**
 
-<img alt="" src="images/8-1.png" width="70%" height="70%" >
+<img alt="" src="images/8-3.png" width="70%" height="70%" >
 
 xii) Select **patient_id** as a **primary key** in the next page
 
-<img alt="" src="images/8-1.png" width="70%" height="70%" >
+<img alt="" src="images/8-4.png" width="70%" height="70%" >
 
 xiii) In the **Tune Transform** step, select **Custom** for **Recall vs Precision** and specify the value of **0.9**
 
@@ -44,12 +44,12 @@ xiv) Also, for **Lower cost vs Accuracy** select the **Custom** field and specif
 
 We have specified these values to achieve the best results. If needed, you can later tweak these values by selecting the transform and using the Tune menu.
 
-<img alt="" src="images/8-1.png" width="70%" height="70%" >
+<img alt="" src="images/8-5.png" width="70%" height="70%" >
 
 
 xv) Review the values and click **Finish**
 
-<img alt="" src="images/8-1.png" width="70%" height="70%" >
+<img alt="" src="images/8-6.png" width="70%" height="70%" >
 
 ### b) Teach transform to identify the duplicates
 In this step we will teach the transform by providing labelled examples of matching and non-matching records. 
