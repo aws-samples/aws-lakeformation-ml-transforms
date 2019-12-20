@@ -5,37 +5,37 @@ ___
 
 ### a) Create FindMatches ML Transform
 
-i) Login as dlanalyst
+i) Login as **dlanalyst**
 
-ii) Using IAM Users sign-in link, login as dlanalyst
+ii) Navigate to AWS Glue Console → On the left side, under **ETL → Jobs → ML Transforms**
 
-iii) Click on Add Transform
+iii) Click on **Add Transform**
 
-iv) Specify patient-data-ml-transform as Transform name
+iv) Specify **patient-data-ml-transform** as **Transform name**
 
-v) IAM Role as AWSGlueServiceRole-LF-MLLab
+v) IAM Role as **AWSGlueServiceRole-LF-MLLab**
 
-vi) Expand Task Run Properties section
+vi) Expand **Task Run Properties** section
 
-vii) Select Worker Type as G.1X (Recommended) 
+vii) Select Worker Type as **G.1X (Recommended)** 
 
-viii) Enter Number of Workers as 5 
+viii) Enter **Number of Workers** as **5** 
 
-ix) Glue Version as Spark 2.2 (Glue Version 0.9)
+ix) **Glue Version** as **Spark 2.2 (Glue Version 0.9)**
 
-x) Keep other values as default and click on Next
+x) Keep other values as default and click on **Next**
 
-xi) Select rawdata as a Data Source and click Next
+xi) Select **rawdata** as a **Data Source** and click **Next**
 
-xii) Select patient_id as a primary key in the next page
+xii) Select **patient_id** as a **primary key** in the next page
 
-xiii) In the Tune Transform step, select Custom for Recall vs Precision and specify the value of 0.9
+xiii) In the **Tune Transform** step, select **Custom** for **Recall vs Precision** and specify the value of **0.9**
 
-xiv) Also, for Lower cost vs Accuracy select the Custom field and specify its value as 1
+xiv) Also, for **Lower cost vs Accuracy** select the **Custom** field and specify its value as **1**
 
 We have specified these values to achieve the best results. If needed, you can later tweak these values by selecting the transform and using the Tune menu.
 
-xv) Review the values and click Finish
+xv) Review the values and click **Finish**
 
 ### b) Teach transform to identify the duplicates
 In this step we will teach the transform by providing labelled examples of matching and non-matching records.
