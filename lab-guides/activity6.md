@@ -1,4 +1,4 @@
-[Back to main guide](../README.md)|[Next](activity7.md)
+[Back to main guide](../README.md) | [Next](activity7.md)
 ___
 
 ## 6. Login as Data Lake Administrator and assign Table permissions
@@ -21,5 +21,5 @@ g) Click on **Grant** to save the changes
 
 ___
 
-[Back to main guide](../README.md)|[Next](activity7.md)
+[Back to main guide](../README.md) | [Next](activity7.md)
 
