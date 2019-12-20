@@ -1,4 +1,4 @@
-[Back to main guide](../README.md)|[Next](sct.md)
+[Back to main guide](../README.md) | [Next](activity8.md)
 ___
 
 ## 7. Observe the data pattern and duplicates in data
@@ -32,4 +32,4 @@ As a next step, we will create, teach and tune AWS Lake Formation FindMatches ML
 
 ___
 
-[Back to main guide](../README.md)|[Next](sct.md)
+[Back to main guide](../README.md) | [Next](activity8.md)
