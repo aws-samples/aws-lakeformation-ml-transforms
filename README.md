@@ -22,7 +22,7 @@ Below table summarizes various activities to be done as part of creating a data 
 
 | No. | Activity  | User |
 | --- | ------------- | ------------- |
-| 1 | Provision the following: - Data lake on Amazon S3 - Data lake administrator - Data lake analyst/developer - Data lake and glue roles   | IAM Administrator  |
+| 1 | Provision the following:<br> - Data lake on Amazon S3<br> - Data lake administrator<br> - Data lake analyst/developer<br> - Data lake and glue roles   | IAM Administrator  |
 | 2| Register a data lake  | Data Lake Administrator  |
 | 3 | Assign Lake Formation Permissions to data lake analyst | Data Lake Administrator |
 | 4 | Create AWS Glue Database | Data Lake Administrator |
