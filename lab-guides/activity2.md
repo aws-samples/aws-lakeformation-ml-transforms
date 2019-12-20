@@ -13,7 +13,7 @@ c) Select the **S3 bucket name** created for you and **patientdata** folder unde
 
 <img alt="register datalake" src="images/2-1.png" width="60%" height="60%" >
 
-d) For IAM Role, select the role AWSGlueServiceRole-LF-MLLab
+d) For IAM Role, select the role **AWSGlueServiceRole-LF-MLLab**
 
 <img alt="register iamrole" src="images/2-2.png" width="60%" height="60%" >
 
