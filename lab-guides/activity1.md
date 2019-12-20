@@ -13,7 +13,8 @@ Region | Launch
 US East (N. Virginia) | [![Launch Solution in us-east-1](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=aws-lf-ml-transform-wrk&templateURL=https://re-invent2019-lakeformation-ml.s3-us-west-2.amazonaws.com/cloudformation/lf-ml-devendpoint.template)
 US West (Oregon) | [![Launch Solution in us-west-2](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home?region=us-west-2#/stacks/new?stackName=aws-lf-ml-transform-wrk&templateURL=https://re-invent2019-lakeformation-ml.s3-us-west-2.amazonaws.com/cloudformation/lf-ml-devendpoint.template)
 
-Click on **Create Stack** and wait for cloudformation template to **Complete**.
+Accept all default values, Click **Next** and on the last page select the option **asd** and click on on **Create Stack**.
+Wait for cloudformation template to **Complete**.
 
 ### b. Setup Data Lake Administrator
 Navigate to Lake Formation Dashboard from AWS Management Console.
