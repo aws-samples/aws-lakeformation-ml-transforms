@@ -74,7 +74,7 @@ iv) Select the S3 location until labeldata folder and append **“/download”**
 v) It would take approximately 10 mins for AWS Glue to generate the labeling file. Once enabled click on **Download labeling file.**
 
 **NOTE: Instead of waiting at this point, you can proceed with step c) below of Uploading the label file from S3. This will save time.**
-In case you want to take a look at the similar labelling file that gets generated, navigate to Amazon S3 Console → <<S3Bucket>>/patientdata/labeldata/ and download the “labeled-dataset-200.csv” file.
+In case you want to take a look at the similar labelling file that gets generated, navigate to **Amazon S3 Console → \<\<S3Bucket\>\>/patientdata/labeldata/** and **download** the **“labeled-dataset-200.csv”** file.
 
 <img alt="" src="images/8-10.png" width="70%" height="70%" >
 
