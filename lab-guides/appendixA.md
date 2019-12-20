@@ -24,9 +24,9 @@ If you followed the names used for S3 bucket path prefixes throughout the guide,
 
 Make sure that **Estimate Quality** operation on ML Transforms has been completed successfully before you run the PySpark script from the notebook.
 
-e) To run the block of code, click on the Run icon for specific cell in the Notebook
+e) To run the block of code, click on the **Run** icon for specific cell in the **Notebook**
 
-At this point, Spark ETL application will run.
+At this point, **Spark ETL application** will run.
 
 Once the Progress bar disappears, and asterisk [*] before the cell is converted to the number, you can continue the steps of crawling and cataloging the data from [Appendix B](appendixB.md).
 
