@@ -38,20 +38,24 @@ We have specified these values to achieve the best results. If needed, you can l
 xv) Review the values and click **Finish**
 
 ### b) Teach transform to identify the duplicates
-In this step we will teach the transform by providing labelled examples of matching and non-matching records.
+In this step we will teach the transform by providing labelled examples of matching and non-matching records. 
 You can create your labeling set yourself or allowing AWS Glue to generate the labeling set based on heuristics.
 AWS Glue extracts records from your source data and suggests potential matching records. The file will container approximately 100 data samples for you to work with. We highly recommend using the “Generate the Labeling file” feature to create the training set to teach your Transform.
 
-i) Select patient-data-ml-transform Transform
-ii) Select Action → Teach transform
-iii) Select I do not have labels and click on Generate labeling file
-iv) Select the S3 location until labeldata folder and append “/download” to it, this is where you want to keep the generated labeling file and click Generate
-v) It would take approximately 10 mins for AWS Glue to generate the labeling file. Once enabled click on Download labeling file.
-NOTE: Instead of waiting at this point, you can proceed with step c) below of Uploading the label file from S3. This will save time.
+i) Select **patient-data-ml-transform** Transform
+
+ii) Select **Action → Teach transform**
+
+iii) Select **I do not have labels** and click on **Generate labeling file**
+
+iv) Select the S3 location until labeldata folder and append **“/download”** to it, this is where you want to keep the generated labeling file and click **Generate**
+
+v) It would take approximately 10 mins for AWS Glue to generate the labeling file. Once enabled click on **Download labeling file.**
+
+**NOTE: Instead of waiting at this point, you can proceed with step c) below of Uploading the label file from S3. This will save time.**
 In case you want to take a look at the similar labelling file that gets generated, navigate to Amazon S3 Console → <<S3Bucket>>/patientdata/labeldata/ and download the “labeled-dataset-200.csv” file.
 
-The labelled data file that is generated has the label column empty as shown below:
-
+The labelled data file that is generated has the **label column empty** as shown below:
 
 Notice that there are 2 additional columns added, **labelling_set_id** and **label_id**.
 
@@ -70,12 +74,18 @@ For your convenience we have already created a sample labeling file under the S3
 ### c) Upload your labels and review match quality
 
 After you create the labeled dataset, teach FindMatches where to find it.
-a) In the AWS Glue console, select the transform that you created earlier.
-b) Choose Action → Teach transform 
-c) On the following page, select I have labels, choose Upload labeling file from S3, and then choose Next.
-d) On the Estimate quality metrics page, click on Estimate transform quality and Finish
-e) You can go back to the Glue Console -> Select the ML Transform → Under History tab, monitor the status of Estimate Transform Quality task
-f) Match Quality operation may take some time to complete. Once the status is Succeeded, click on the Estimate Quality tab. You should see the results for transforms quality as shown below.
+
+i) In the **AWS Glue console**, select the transform that you created earlier.
+
+ii) Choose **Action → Teach transform** 
+
+iii) On the following page, select **I have labels**, choose **Upload labeling file from S3**, and then choose **Next**.
+
+iv) On the **Estimate quality metrics** page, click on **Estimate transform quality** and **Finish**
+
+v) You can go back to the **Glue Console -> Select the ML Transform → Under History tab, monitor the status of Estimate Transform Quality task**
+
+vi) **Match Quality** operation may take some time to complete. Once the status is **Succeeded**, click on the **Estimate Quality** tab. You should see the results for transforms quality as shown below.
 
 **NOTE: Instead of waiting on this step, you can read the instructions below and proceed to Step#9. Later, come back and verify the results for Estimate Quality operation.**
 
@@ -90,6 +100,12 @@ ___
 Next step is running the ETL Job to find duplicates in rawdata table from Glue Data Catalog.
 
 In this lab, you have 2 options for this:
+
+|   | Options | Considerations |
+| --- | ------ | ------ |
+| 1 | Using AWS Glue Console, Run Glue ETL Job as per Step#9 below and continue through the document | This needs initial start-up time (cold start) for underlying Spark cluster to spin-up 
+
+Recommended for production deployments |
 
 
 
