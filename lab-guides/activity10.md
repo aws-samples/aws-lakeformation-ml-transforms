@@ -1,56 +1,23 @@
-[Back to main guide](../README.md)|[Next](activity10.md)
+[Back to main guide](../README.md) | [Next](appendixA.md)
 
 ___
 
-## 9. Create and Run Glue ETL Job to use ML Transform for finding duplicates
+## 10. Catalog de-duplicated data and query using Amazon Athena
 
-After you create a FindMatches transform and verify that it has learned to identify matching records in your data, you’re ready to identify matches and can do data deduplication over your complete dataset.
+Your dedup’ed data is now available under transformresult folder in S3 bucket.
 
-a) Login as **dlanalyst**
+Follow the similar steps as in Activity#5, 6 and 7 to
 
-b) In the AWS Glue console, in the left navigation pane, choose Jobs, Add job.
+a) Crawl and Catalog data in AWS Glue
 
-c) Under Configure the job properties → Name as patient-data-dedup-job
+b) Login as Data Lake Administrator and assign the dlanalyst permission to Select the data
 
-d) Select IAM Role as AWSGlueServiceRole-LF-MLLab
+c) Query the data using Amazon Athena
 
-e) Select Type as Spark f) Glue version as Spark 2.2, Python 2 (Glue version 0.9)
+NOTE: Data generated from ETL Job consists of quotes and you would need to edit the table properties. We have provided the screenshots for the above steps including how to remove quotes in the result-set in the [Appendix B](appendixB.md) below.
 
-g) Keep defaults for other values and click on Next
-
-h) Select rawdata as a data source
-
-i) On the next page, select Find Matching Records and check the option Remove Duplicate Records 
-
-j) Select Worker Type as G.1X 
-
-k) Specify Number of workers as 5
-
-l) Click Next
-
-m) On the next page, select patient-data-ml-transform and click Next
-
-n) On the next page, select Create tables in your data target
-
-o) Choose Amazon S3 as a data store
-
-p) Select Format as CSV q) Specify the Target path as <S3Bucket>/patientdata/transformresult
-
-r) Click Save job and edit script
-
-s) Click on Run, to run the Glue ETL Job which has auto-generated code which uses FindMatches ML Transform to identify the duplicate records and removes them.
-
-Below is the code snippet which uses FindMatches transform to identify the result.
-
-Below code removes the duplicate records and keeps the one with lowest primary key value. You may modify the logic to remove other records or even merge the records.
-
-t) Click on Run Job
-
-u) Monitor the progress of the Job from the Glue Console
-
-v) Once the Job status is Succeeded, you can verify the files under transformresult in S3 bucket
-
+You can query data using Amazon Athena and export the results to see the deduplicated results.
 
 ___
 
-[Back to main guide](../README.md)|[Next](activity10.md)
+[Back to main guide](../README.md) | [Next](appendixA.md)
