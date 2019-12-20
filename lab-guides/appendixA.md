@@ -1,7 +1,7 @@
 [Back to main guide](../README.md) | [Next](appendixB.md)
 ___
 
-## Using Amazon SageMaker Jupyter Notebook to Run the Glue Job
+## Appendix A: Using Amazon SageMaker Jupyter Notebook to Run the Glue Job
 
 ### Step 1: Open Jupyter Notebook from AWS Glue Console
 
