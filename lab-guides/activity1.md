@@ -9,6 +9,7 @@ ____
 
 ### b. Setup Data Lake Administrator
 Navigate to Lake Formation Dashboard from AWS Management Console.
+![lakeformation-console](images/1-1.png)
 First time you navigate to Lake Formation Dashboard page, you would be prompted for creating a Data Lake Administrator. Click on **“Add administrators”**.
 
 OR
