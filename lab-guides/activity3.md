@@ -16,6 +16,8 @@ ii) From Lake Formation console, navigate to **Admins and database creators** un
 
 iii) Click on **Grant** to save the Create database permission for the **dlanalyst**
 
+<img alt="grant db creation" src="images/3-2.png" width="90%" height="90%" >
+
 
 ### b) Grant Data Location Permission to data analyst and AWS IAM Service Role
 
@@ -28,6 +30,8 @@ ii) Select the dlanalyst as well as AWS Service Role **‘AWSGlueServiceRole-LF-
 iii) In the Storage location field select **‘\<<s3bucket\>>/patientdata’**
 
 iv) Click on **Grant** to save the changes
+
+<img alt="db creators" src="images/3-1.png" width="90%" height="90%" >
 
 
 ___
