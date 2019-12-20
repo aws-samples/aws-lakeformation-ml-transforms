@@ -11,7 +11,7 @@ ii) Navigate to AWS Glue Console → On the left side, under **ETL → Jobs → 
 
 iii) Click on **Add Transform**
 
-<img alt="" src="images/8-1.png" width="70%" height="70%" >
+<img alt="" src="images/8-1.png" width="60%" height="60%" >
 
 iv) Specify **patient-data-ml-transform** as **Transform name**
 
