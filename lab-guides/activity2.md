@@ -18,7 +18,9 @@ d) For IAM Role, select the role AWSGlueServiceRole-LF-MLLab
 <img alt="register iamrole" src="images/2-2.png" width="60%" height="60%" >
 
 e) Click on **Register Location**. You would see the confirmation that S3 path is registered successfully.
-<img>
+
+<img alt="register success" src="images/2-3.png" width="60%" height="60%" >
+
 
 ___
 
