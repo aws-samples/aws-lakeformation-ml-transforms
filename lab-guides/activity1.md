@@ -7,6 +7,7 @@ ____
 ### a. Launch CloudFormation Template
 
 Launch the CloudFormation stack in one of the AWS regions. Other regions are also supported.
+
 We recommend that CloudFormation template be launched from the user having administrator previliges.
 
 Region | Launch
@@ -24,6 +25,7 @@ CloudFormation template would create the below resources.
 - Labelling file that would be used in Activity#
 - Glue Development Endpoint 
 - SageMaker Notebook instance with Spark ETL code
+- IAM Role for AWS Glue and Lake Formation
 
 **NOTE: Password for dladmin and dlanalyst users is set to "welcome".**
 
