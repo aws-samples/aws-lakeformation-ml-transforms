@@ -10,6 +10,7 @@ b) Give **Name** as **patientdb**
 
 c) Click on **Create Database**
 
+<img alt="create glue database" src="images/4-1.png" width="80%" height="80%" >
 
 d) Navigate to **Permissions → Data Permissions → Grant**
 
@@ -21,6 +22,7 @@ g) Under **Database permissions** select **Super**
 
 h) Click on **Grant** to save the changes
 
+<img alt="grant db" src="images/4-2.png" width="80%" height="80%" >
 
 ___
 
