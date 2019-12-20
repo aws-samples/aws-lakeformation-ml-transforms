@@ -12,6 +12,8 @@ i) Login as a Data Lake Administrator – dladmin
 ii) From Lake Formation console, navigate to **Admins and database creators** under Permissions section in Lake Formation console **→ under Database Creators section Click on Grant 
 → Select user dlanalyst** and check the **Create database option** under Catalog permissions.
 
+<img alt="db creators" src="images/3-1.png" width="60%" height="60%" >
+
 iii) Click on **Grant** to save the Create database permission for the **dlanalyst**
 
 
