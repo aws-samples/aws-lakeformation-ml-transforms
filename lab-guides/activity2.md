@@ -8,12 +8,14 @@ Data Lake Administrators would register the data lake, so that, when you point L
 a) Login as a data lake administrator **dladmin**
 
 b) To register a data lake location, Navigate to Lake Formation Console **→ Under Register and Ingest on the left side → Data Lake locations** → Click on **Register Location.** 
-<img>
+
 c) Select the **S3 bucket name** created for you and **patientdata** folder under it
-<img>
+
+<img alt="register datalake" src="images/2-1.png" width="60%" height="60%" >
 
 d) For IAM Role, select the role AWSGlueServiceRole-LF-MLLab
-<img>
+
+<img alt="register iamrole" src="images/2-2.png" width="60%" height="60%" >
 
 e) Click on **Register Location**. You would see the confirmation that S3 path is registered successfully.
 <img>
