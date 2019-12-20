@@ -103,9 +103,8 @@ In this lab, you have 2 options for this:
 
 |   | Options | Considerations |
 | --- | ------ | ------ |
-| 1 | Using AWS Glue Console, Run Glue ETL Job as per Step#9 below and continue through the document | This needs initial start-up time (cold start) for underlying Spark cluster to spin-up 
-
-Recommended for production deployments |
+| 1 | Using AWS Glue Console, Run Glue ETL Job as per Step#9 below and continue through the document | * This needs initial start-up time (cold start) for underlying Spark cluster to spin-up <br> * Recommended for production deployments |
+| 1 | Using AWS Glue Console, Run Glue ETL Job as per Step#9 below and continue through the document | * This needs initial start-up time (cold start) for underlying Spark cluster to spin-up <br> * Recommended for production deployments |
 
 
 
