@@ -1,4 +1,4 @@
-[Back to main guide](../README.md)|[Next](activity10.md)
+[Back to main guide](../README.md) | [Next](activity10.md)
 
 ___
 
@@ -57,4 +57,4 @@ v) Once the Job status is **Succeeded**, you can verify the files under **transf
 
 ___
 
-[Back to main guide](../README.md)|[Next](activity10.md)
+[Back to main guide](../README.md) | [Next](activity10.md)
