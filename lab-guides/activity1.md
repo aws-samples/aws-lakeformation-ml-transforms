@@ -22,7 +22,7 @@ ii) Go to => Lake Formation Console **→ Admins and database creators → Data 
 
 iii) Click on **Add Administrators**
 
-![add admin](images/1-2.png =150x100)
+![add admin](images/1-2.png){width=50%}
 
 iv) Select the Data Lake Administrator as **“dladmin”** user and click on **Save**.
 
