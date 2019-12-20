@@ -60,22 +60,36 @@ i) Select **patient-data-ml-transform** Transform
 
 ii) Select **Action → Teach transform**
 
+<img alt="" src="images/8-7.png" width="70%" height="70%" >
+
 iii) Select **I do not have labels** and click on **Generate labeling file**
 
+<img alt="" src="images/8-8.png" width="70%" height="70%" >
+
+
 iv) Select the S3 location until labeldata folder and append **“/download”** to it, this is where you want to keep the generated labeling file and click **Generate**
+
+<img alt="" src="images/8-9.png" width="70%" height="70%" >
 
 v) It would take approximately 10 mins for AWS Glue to generate the labeling file. Once enabled click on **Download labeling file.**
 
 **NOTE: Instead of waiting at this point, you can proceed with step c) below of Uploading the label file from S3. This will save time.**
 In case you want to take a look at the similar labelling file that gets generated, navigate to Amazon S3 Console → <<S3Bucket>>/patientdata/labeldata/ and download the “labeled-dataset-200.csv” file.
 
+<img alt="" src="images/8-10.png" width="70%" height="70%" >
+
 The labelled data file that is generated has the **label column empty** as shown below:
+
+<img alt="" src="images/8-11.png" width="70%" height="70%" >
+
 
 Notice that there are 2 additional columns added, **labelling_set_id** and **label_id**.
 
 You will need to populate the label column explicitly by marking the records that are a real match with the same value. Each labelling set should contain positive and negative match examples.
 
-This file is fully ready for consumption. However, let’s go a little deeper into its structure, so that you know how to prepare and label data for your matching projects. The label column is empty in the generated file and you need to fill this in like below
+This file is fully ready for consumption. However, let’s go a little deeper into its structure, so that you know how to prepare and label data for your matching projects. The label column is empty in the generated file and you need to fill this in like below:
+
+<img alt="" src="images/8-12.png" width="70%" height="70%" >
 
 The entire training dataset is divided into labeling sets. Each labeling set displays a labeling_set_id value. This identification simplifies the labeling process, enabling you to focus on the match relationship of records within the same labeling set, rather than having to scan the entire file. **You would assign labels according to which records should match based on the attribute values.**
 
