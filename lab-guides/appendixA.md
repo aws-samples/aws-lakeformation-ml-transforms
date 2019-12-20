@@ -5,9 +5,9 @@ ___
 
 ### Step 1: Open Jupyter Notebook from AWS Glue Console
 
-a) Navigate to ETL → Dev Endpoints → Notebooks
+a) Navigate to AWS Glue Console,  **ETL → Dev Endpoints → Notebooks**
 
-b) Select the notebook named aws-glue-ml-transform and click Open notebook button. This will take you to SageMaker notebook page.
+b) Select the notebook named **aws-glue-ml-transform** and click **Open notebook** button. This will take you to **SageMaker notebook** page.
 
 
 ### Step 2: Run the Glue PySpark script to deduplicate data using FindMatches ML Transform
