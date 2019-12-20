@@ -1,4 +1,4 @@
-[Back to main guide](../README.md)|[Next](activity2.md)
+[Back to main guide](../README.md) | [Next](activity2.md)
 
 ____
 
@@ -34,4 +34,4 @@ After this step you, would not be using this IAM user again. Instead you will us
 
 ___
 
-[Back to main guide](../README.md)|[Next](activity2.md)
+[Back to main guide](../README.md) | [Next](activity2.md)
