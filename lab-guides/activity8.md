@@ -109,11 +109,22 @@ ii) Choose **Action → Teach transform**
 
 iii) On the following page, select **I have labels**, choose **Upload labeling file from S3**, and then choose **Next**.
 
+<img alt="" src="images/8-13.png" width="70%" height="70%" >
+
+<img alt="" src="images/8-14.png" width="70%" height="70%" >
+
 iv) On the **Estimate quality metrics** page, click on **Estimate transform quality** and **Finish**
+
+<img alt="" src="images/8-15.png" width="70%" height="70%" >
 
 v) You can go back to the **Glue Console -> Select the ML Transform → Under History tab, monitor the status of Estimate Transform Quality task**
 
+<img alt="" src="images/8-16.png" width="70%" height="70%" >
+
 vi) **Match Quality** operation may take some time to complete. Once the status is **Succeeded**, click on the **Estimate Quality** tab. You should see the results for transforms quality as shown below.
+
+<img alt="" src="images/8-17.png" width="70%" height="70%" >
+
 
 **NOTE: Instead of waiting on this step, you can read the instructions below and proceed to Step#9. Later, come back and verify the results for Estimate Quality operation.**
 
