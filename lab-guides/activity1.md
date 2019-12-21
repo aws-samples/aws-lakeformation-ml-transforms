@@ -22,7 +22,7 @@ CloudFormation template would create the below resources.
 - Data Lake Administrator user (dladmin)
 - Data Lake Analyst (dlanalyst)
 - S3 Bucket with Sample Patient Dataset having duplicates. **(Use this S3 bucket throughout the lab. The one shown the in the screenshots is only for the reference.)** 
-- Labelling file that would be used in Activity#
+- Labelling file that would be used in Activity#8
 - Glue Development Endpoint 
 - SageMaker Notebook instance with Spark ETL code
 - IAM Role for AWS Glue and Lake Formation
