@@ -9,7 +9,7 @@ a) Login as a data lake administrator **dladmin**
 
 b) To register a data lake location, Navigate to Lake Formation Console **→ Under Register and Ingest on the left side → Data Lake locations** → Click on **Register Location.** 
 
-c) Select the **S3 bucket name** created for you and **patientdata** folder under it
+c) Select the **S3 bucket name** created for you and **patientdata** folder under it. **Please use this S3 bucket name throughout the lab.**
 
 <img alt="register datalake" src="images/2-1.png" width="60%" height="60%" >
 
