@@ -12,7 +12,6 @@ We have used the synthetic dataset generated from Open Source Freely extensible 
 ### Architecture
 Below is the high-level architecture that you would be implementing as part of this lab.
 
-
 ![Reference Architecture](img/architecture.png "Reference Architecture")
 
 
