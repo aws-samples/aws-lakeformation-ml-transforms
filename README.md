@@ -9,6 +9,12 @@ In this lab, participants will go through various steps to provision a data lake
 ### Lab Data Set
 We have used the synthetic dataset generated from Open Source Freely extensible Biomedical Record Linkage Program (FEBRL). This dataset mimicks real-life patient data sets that lead to duplicates. You can also generate your own dataset by following the steps mentioned @ https://github.com/J535D165/FEBRL-fork-v0.4.2/tree/master/dsgen or in [this](https://aws.amazon.com/blogs/big-data/matching-patient-records-with-the-aws-lake-formation-findmatches-transform/) AWS blog. For the sake of simplicity, we would be copying the sample dataset automatically into an Amazon S3 bucket that is created as part of the CloudFormation launch.
 
+### Use Case
+Happy HealthCare’s marketing team receives data from multiple EHR providers to identify count of patients within a specific geography. Since data is coming from different EHR providers, and SSN number is optional, it is getting difficult for Happy HealthCare to identify the unique customers.
+
+Happy HealthCare decided to use AWS Lake Formation ML Transforms to identify the potential duplicates in data. They would then be using Amazon Athena and Amazon QuickSight to identify patient density in a specific geographic area. This will help them identify potential customers.
+
+
 ### Architecture
 Below is the high-level architecture that you would be implementing as part of this lab.
 
